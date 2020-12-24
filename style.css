@@ -1,11 +1,14 @@
-.all {
-  text-align: center;
-  margin: 0;
-  padding: 0;
+
+header {
+  background-image:url(img/1894837.jpg);
+  height: 40rem; 
+  background-size: cover;
+  font-family: 'Source Serif Pro', serif;
+  color: #34a4eb;
+  
 }
 
-#index {
-  background-image:url(img/1894837.jpg);
-  height: 40rem;
-  
+.navbar {
+  height: 3rem;
+  color: #34a4eb;
 }
