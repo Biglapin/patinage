@@ -1,14 +1,24 @@
-
 header {
   background-image:url(img/1894837.jpg);
   height: 40rem; 
   background-size: cover;
   font-family: 'Source Serif Pro', serif;
   color: #34a4eb;
-  
+  justify-content: center;
 }
-
 .navbar {
   height: 3rem;
+}
+.navbar-link {
   color: #34a4eb;
+  padding-top: 1rem;
+  justify-content: flex-end;
+  font-family: 'Source Serif Pro', serif;
+}
+.row-title {
+  margin: 10%;
+  padding-top: 10%;
+}
+.card-index {
+  color: black;
 }
