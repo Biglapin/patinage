@@ -1,9 +1,13 @@
+/* font-family: 'Jura', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Ubuntu', sans-serif;*/
+
 header {
-  background-image:url(img/1894837.jpg);
+  background:url(img/1894837.jpg) no-repeat center ;
   height: 40rem; 
   background-size: cover;
-  font-family: 'Source Serif Pro', serif;
-  color: #34a4eb;
+  font-family: 'Merriweather', serif;
+  color: #000000;
   justify-content: center;
 }
 .navbar {
@@ -18,7 +22,13 @@ header {
 .row-title {
   margin: 10%;
   padding-top: 10%;
+  text-align: center;
+}
+.text-title {
+  padding-top: 20%;
+  
 }
 .card-index {
   color: black;
 }
+
