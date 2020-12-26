@@ -18,7 +18,8 @@ header {
   color: black;
   padding-top: 1rem;
   justify-content: flex-end;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Ubuntu';
+  font-size: 1.3rem;
 }
 .row-title {
   margin: 10%;
@@ -39,3 +40,19 @@ header {
 .card-size {
   height: 20rem;
 }
+
+/* MAPS */
+.map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  
+  .map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
