@@ -3,11 +3,15 @@ font-family: 'Merriweather', serif;
 font-family: 'Ubuntu', sans-serif;*/
 
 /* HEADER NAV */
+h2 p {
+  font-family: 'Merriweather', serif;
+}
+
 header {
-  background:url(img/1894837.jpg) no-repeat center ;
+  background:url(img/2107085.jpg) no-repeat center ;
   height: 40rem; 
   background-size: cover;
-  font-family: 'Merriweather', serif;
+  font-family: 'Caveat', cursive;
   color: #000000;
   justify-content: center;
 }
@@ -17,9 +21,9 @@ header {
 .navbar-link {
   color: black;
   padding-top: 1rem;
-  justify-content: flex-end;
-  font-family: 'Ubuntu';
-  font-size: 1.3rem;
+  justify-content: flex-start;
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
 }
 .row-title {
   margin: 10%;
@@ -55,4 +59,15 @@ header {
   height:100%;
   width:100%;
   position:absolute;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 6rem;
+    background: black;
+  }
+
+  footer > img {
+    margin: 1rem;
   }
