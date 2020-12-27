@@ -6,7 +6,6 @@ font-family: 'Ubuntu', sans-serif;*/
 h2 p {
   font-family: 'Merriweather', serif;
 }
-
 hr {
     border: 0; 
     height: 1px; 
@@ -52,9 +51,12 @@ header {
   margin-top: 28%;
   height: 14rem;
 }
-
 .card-size {
   min-height: 20rem;
+}
+/* TEAM */
+.name-team {
+  margin-top: 2rem;
 }
 
 /* MAPS */
