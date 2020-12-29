@@ -4,7 +4,10 @@ font-family: 'Ubuntu', sans-serif;*/
 
 /* HEADER NAV */
 h1, h2, h3 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+
 }
 p {
   font-family: 'Ubuntu', sans-serif
@@ -19,10 +22,9 @@ hr {
 }
 
 header {
-  background:url(img/2107085.jpg) no-repeat center ;
+  background:url(img/background.jpg) no-repeat center ;
   height: 40rem; 
   background-size: cover;
-  font-family: 'Caveat', cursive;
   color: #000000;
   justify-content: center;
 }
@@ -34,7 +36,9 @@ header {
   color: black;
   padding-top: 1rem;
   justify-content: flex-start;
-  font-family: 'Caveat', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-style: italic;
   font-size: 1.8rem;
 }
 .row-title {
@@ -43,6 +47,11 @@ header {
   text-align: center;
 }
 /* NEWS */
+.covid-info {
+  background-color: #769dc3;
+  color: black;
+}
+
 .text-title {
   padding-top: 29vh;
 }
@@ -67,6 +76,11 @@ header {
 .container-fluid.teammate {
   width: 98%;
 }
+.text-team {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
 /* MAPS */
 .map-container-6{
   overflow:hidden;
@@ -87,7 +101,7 @@ header {
 
   footer {
     height: 10rem;
-    background: black;
+    background: #769dc3;
   }
 
  .logo-footer {
