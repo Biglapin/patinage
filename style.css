@@ -64,6 +64,9 @@ header {
 .rounded-circle {
   margin-top: 7%;
 }
+.container-fluid.teammate {
+  width: 98%;
+}
 /* MAPS */
 .map-container-6{
   overflow:hidden;
@@ -83,10 +86,10 @@ header {
   /* FOOTER */
 
   footer {
-    height: 6rem;
+    height: 10rem;
     background: black;
   }
 
  .logo-footer {
-    margin: 1rem;
+    margin: 2rem;
   }
