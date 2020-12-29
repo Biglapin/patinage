@@ -28,7 +28,9 @@ header {
   color: #000000;
   justify-content: center;
 }
-
+.text-title {
+  padding-top: 29vh;
+}
 .navbar {
   height: 3rem;
 }
@@ -52,9 +54,7 @@ header {
   color: black;
 }
 
-.text-title {
-  padding-top: 29vh;
-}
+
 .card-index {
   color: black;
 }
