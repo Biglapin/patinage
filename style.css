@@ -95,6 +95,13 @@ header {
   position:absolute;
   }
 
+  /* EVENT */
+  .card-text-event {
+    width: 38rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
   /* FOOTER */
 
   footer {
