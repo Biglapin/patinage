@@ -1,13 +1,9 @@
-/*
-
-font-family: 'Ubuntu', sans-serif;*/
-
 /* HEADER NAV */
 h1, h2, h3 {
   font-family: 'Josefin Slab', serif;
   font-weight: 700;
   font-style: italic;
-  color: #3D9BE9;
+  color: #374a99;
 
 }
 p {
@@ -29,12 +25,11 @@ header {
   background-size: cover;
   justify-content: center;
 }
-
 .navbar {
   height:3rem;
 }
 .navbar-link {
-  color: #3D9BE9;;
+  color: #374a99;
   padding-top: 1rem;
   justify-content: flex-start;
   font-family: 'Josefin Slab', serif;
@@ -42,20 +37,18 @@ header {
   font-size: 1.5rem;
   margin-top: 2rem;
 }
-
 .row-title {
   margin: 10%;
-  padding-top: 10%;
+  padding-top: 23%;
   text-align: center;
 }
-
 .title-event {
   font-size: 6rem;
 }
 /* NEWS */
+
 .covid-info {
-  background-color: #3D9BE9;
-  
+  background-color: #374a99;
 }
 .img-thumbnail.img-news{
   width: 200px;
@@ -65,7 +58,9 @@ header {
 .card-size {
   min-height: 20rem;
 }
+
 /* TEAM */
+
 .name-team {
   margin: 1.3rem;
 }
@@ -82,13 +77,13 @@ header {
   text-align: justify;
 }
 /* CONTACT */
+
 .map-container-6{
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
   height:0;
   }
-  
   .map-container-6 iframe{
   left:0;
   top:0;
@@ -96,13 +91,13 @@ header {
   width:100%;
   position:absolute;
   }
-
   .md-form {
     margin-bottom: 1rem;
     font-family:'Ubuntu', sans-serif;
   }
 
   /* EVENT */
+
   .card-text-event {
     margin: auto;
     margin-bottom: 1rem;
@@ -112,10 +107,8 @@ header {
 
   footer {
     height: 10rem;
-    background: #3D9BE9;
-    
+    background: #374a99;
   }
-
  .logo-footer {
     margin: 2rem;
   }
