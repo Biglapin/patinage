@@ -104,7 +104,6 @@ header {
 
   /* EVENT */
   .card-text-event {
-    width: 30rem;
     margin: auto;
     margin-bottom: 1rem;
   }
@@ -133,6 +132,9 @@ header {
     }
     .navbar-link {
       margin-top:0;
+    }
+    .navbar-link > ul > li > a {
+      padding: 0;
     }
     .navbar-brand {
       display: none;
