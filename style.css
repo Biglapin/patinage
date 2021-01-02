@@ -1,13 +1,13 @@
-/* font-family: 'Jura', sans-serif;
-font-family: 'Merriweather', serif;
+/*
+
 font-family: 'Ubuntu', sans-serif;*/
 
 /* HEADER NAV */
 h1, h2, h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Josefin Slab', serif;
   font-weight: 700;
   font-style: italic;
-  color: #000000;
+  color: #3D9BE9;
 
 }
 p {
@@ -24,23 +24,23 @@ hr {
 }
 
 header {
-  background:url(img/background.jpg) no-repeat center ;
+  background:url(img/background_trans.png) no-repeat center ;
   height: 40rem; 
   background-size: cover;
   justify-content: center;
 }
 
 .navbar {
-  height: 3rem;
+  height:3rem;
 }
 .navbar-link {
-  color: black;
+  color: #3D9BE9;;
   padding-top: 1rem;
   justify-content: flex-start;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Josefin Slab', serif;
   font-weight: 700;
-  font-style: italic;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }
 
 .row-title {
@@ -48,9 +48,13 @@ header {
   padding-top: 10%;
   text-align: center;
 }
+
+.title-event {
+  font-size: 6rem;
+}
 /* NEWS */
 .covid-info {
-  background-color: #769dc3;
+  background-color: #3D9BE9;
   
 }
 .img-thumbnail.img-news{
@@ -67,7 +71,7 @@ header {
 }
 .img-team-section{
   margin-top: 7%;
-  border-radius: 32%!important;
+  border-radius: 32%;
 }
 .container-fluid.teammate {
   width: 98%;
@@ -93,9 +97,14 @@ header {
   position:absolute;
   }
 
+  .md-form {
+    margin-bottom: 1rem;
+    font-family:'Ubuntu', sans-serif;
+  }
+
   /* EVENT */
   .card-text-event {
-    width: 38rem;
+    width: 30rem;
     margin: auto;
     margin-bottom: 1rem;
   }
@@ -104,7 +113,8 @@ header {
 
   footer {
     height: 10rem;
-    background: #769dc3;
+    background: #3D9BE9;
+    
   }
 
  .logo-footer {
@@ -120,5 +130,11 @@ header {
   @media (max-width: 991px) {
     .text-team {
       margin-bottom: 1rem;
+    }
+    .navbar-link {
+      margin-top:0;
+    }
+    .navbar-brand {
+      display: none;
     }
   }
