@@ -42,6 +42,7 @@ header {
   font-style: italic;
   font-size: 1.8rem;
 }
+
 .row-title {
   margin: 10%;
   padding-top: 10%;
@@ -58,7 +59,7 @@ header {
 }
 .img-thumbnail.img-news{
   width: 200px;
-  margin-top: 28%;
+  margin: 3rem 1rem 1rem 0rem;
   height: 14rem;
 }
 .card-size {
@@ -66,10 +67,11 @@ header {
 }
 /* TEAM */
 .name-team {
-  margin-top: 2rem;
+  margin: 1.3rem;
 }
-.rounded-circle {
+.img-team-section{
   margin-top: 7%;
+  border-radius: 32%!important;
 }
 .container-fluid.teammate {
   width: 98%;
@@ -79,7 +81,7 @@ header {
   margin: auto;
   text-align: justify;
 }
-/* MAPS */
+/* CONTACT */
 .map-container-6{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -111,4 +113,16 @@ header {
 
  .logo-footer {
     margin: 2rem;
+  }
+
+  @media (max-width: 793px) {
+    .row-title {
+      padding-top: 23%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .text-team {
+      margin-bottom: 1rem;
+    }
   }
