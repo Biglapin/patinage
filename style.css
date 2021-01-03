@@ -133,3 +133,9 @@ header {
       display: none;
     }
   }
+
+  @media (max-width: 2500px) {
+    .row-title {
+      padding-top: 17%;
+    }
+  }
