@@ -134,7 +134,7 @@ header {
     }
   }
 
-  @media (max-width: 2500px) {
+  @media (min-width: 2500px) {
     .row-title {
       padding-top: 17%;
     }
